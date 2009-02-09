@@ -60,6 +60,7 @@ body {
 }
 ul {
   border: 7px solid #000;
+  border-bottom: 0;
   padding: 30px;
 }
 ul li a:link,
@@ -90,4 +91,14 @@ ul li.code a:hover {
   color: #37668e;
   border: 1px solid #e9e9e9;
   background-position: center -99px;
+}
+#networks {
+  border: 7px solid #000;
+  border-top: 0;
+  padding: 15px 10px;
+  background: #f1f1f1;
+}
+#networks a {
+  border: 0;
+  margin: 0 5px;
 }
