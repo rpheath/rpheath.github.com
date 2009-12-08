@@ -52,11 +52,13 @@ body {
   font-family: georgia, helvetica, sans-serif;
 }
 #container {
-  margin: 150px auto 50px auto;
+  margin: 150px auto 10px auto;
   border: 10px solid #0c0c0c;
   width: 550px;
   text-align: center;
   background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 ul {
   border: 7px solid #000;
@@ -101,4 +103,20 @@ ul li.code a:hover {
 #networks a {
   border: 0;
   margin: 0 5px;
+}
+.centered {
+  text-align: center;
+}
+#ftr {
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 13px;
+}
+#ftr a:link,
+#ftr a:visited {
+  color: #222;
+  margin: 0 8px;
+}
+#ftr a:hover {
+  color: #444;
 }
